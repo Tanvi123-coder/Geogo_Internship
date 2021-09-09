@@ -1,0 +1,473 @@
+body{
+    background-color: rgb(247, 244, 241);
+    font-family: sans-serif;
+}
+.main
+{
+    background-color: white;
+    position: absolute;
+    margin: -5px;
+    height: 99%;
+    width: 99%;
+    
+    display: flex;
+    
+}
+.menu
+{
+    width: 80px;
+    padding-right: 30px;
+}
+.menu ol
+{
+    
+    list-style: none;
+    display: block;  
+}
+.menu ol li
+{
+    color:#777575;
+    position: relative;
+    display: block;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.menu ol li:hover
+{
+    color: rgb(245, 81, 81);
+    cursor: pointer;
+}
+.menu ol li:hover:before
+{
+    opacity: 1;
+}
+.menu ol li:nth-child(1)
+{
+    padding-top: 25px;
+    padding-bottom: 80px;
+    color: rgb(245, 81, 81);
+    font-size: 25px;
+}
+.weather
+{
+    width: 900px;
+    display: flex;
+}
+.search
+{
+    background-color: rgb(236, 233, 233);
+    height: 7px;
+    width: 200px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+.search > i
+{
+    color: #777;
+    font-size: 16px;
+}
+.search > input
+{
+    
+    border: none;
+    background-color: rgb(236, 233, 233);
+    color: #777;
+    font-size: 16px;
+    width: 100px;
+    margin-left: 10px;
+}
+.card
+{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid red;
+    position: relative;
+    margin-left: 10px;
+}
+.first
+{
+    display: flex;
+    position: relative;
+}
+.first p
+{
+    margin-left: 15px;
+    line-height: 0%;
+}
+.day
+{
+    font-size: 15px;
+}
+.status
+{
+    color: gray;
+    font-size: 13px;
+}
+.second
+{
+    display: flex;
+    position: relative;
+    margin-top: -15px;
+}
+.icon
+{
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 25px;
+    color: rgb(100, 98, 98);
+    position: relative;
+}
+
+img
+{
+    width: 95%;
+    height: 150px;
+    border-radius: 20px;
+}
+.img
+{
+    margin: 10px;   
+}
+.text
+{
+    width: 50%;
+    position: absolute;
+    margin-top: -150px;
+}
+.text p{
+    line-height: 0.5;
+    margin-left: 35px;
+}
+.text p:nth-child(1)
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.text p:nth-child(2)
+{
+    color: rgb(68, 67, 67);
+}
+.text p:nth-child(3)
+{
+    position: relative;
+    margin-top: 40px;
+    font-size: 40px;
+}
+.second ul
+{
+    list-style: none;
+    display: block;
+    margin-left: -23px;
+   
+}
+ul li
+{
+    color:red;
+    position: relative;
+    display: block;
+    font-size: -10px;
+}
+ul li span
+{
+    font-size: 12px;
+    color: black;
+    padding-left: 7px;
+}
+.second p
+{
+    position: relative;
+    margin-left: 45px;
+    font-size: 25px;
+}
+.container
+{
+    display: flex;
+}
+
+.two
+{
+    position: relative;
+    margin-top: 10px;
+}
+.combine
+{
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+}
+.days
+{
+    display: flex;
+    
+}
+.today
+{
+    color: gray;
+}
+.week
+{
+    position: relative;
+    margin-left: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+.temp
+{
+    display: flex;
+}
+.temp div
+{
+    
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+}
+.c
+{
+    position: relative;
+    background-color: red;
+    color: white;
+    margin-left: 680px;
+}
+.f
+{
+    border: solid 1px;
+    position: relative;
+    margin-left: 8px;
+}
+.highlight
+{
+    display: flex;
+    width: 95%;
+}
+.title2
+{
+    font-weight: bold;
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+.highlight div
+{
+    height: 100px;
+    width: 33%;
+    background: rgb(236, 233, 233);
+    border-radius: 20px;
+    margin: 10px;
+}
+.highlight div >div
+{
+    height: 20px;
+}
+.graph img
+{
+   
+    height: 100%;
+    width: 100%;
+}
+.graph h5
+{
+    margin-top: -100px;  
+}
+.arrow
+{
+    display: flex;
+  
+}
+.sunrise h5
+{
+    margin-top: 10px;
+    padding-left: 30px;
+}
+.arrow i
+{
+    font-size: 30px;
+    color: orange;
+    position: relative;
+    margin-left: 15px;
+}
+.arrow span
+{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.quality h5
+{
+    margin-top: 10px;
+    padding-left: 30px;
+    margin-bottom: 8px;
+}
+.quality table
+{
+    background: rgb(241, 188, 88);
+    position: relative;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.quality table b
+{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.quality table p
+{
+    font-weight: bold;
+    padding-right: 10px;
+}
+.back
+{
+    background-color: rgb(236, 233, 233);
+    border-radius: 20px;
+    position: relative;
+    margin-top: 50px;
+    height: 600px;
+    
+}
+.profile
+{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.profile i:nth-child(2)
+{
+    padding-left: 25px
+}
+.profile i:nth-child(3)
+{
+    padding-left: 45%;
+}
+.profile i:nth-child(5)
+{
+    font-size: 18px;
+}
+.profile span
+{
+    font-size: 18px;
+}
+.table
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.table h4
+{
+    padding-top: 10px;
+    padding-left:18px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.table table
+{
+    position: relative;
+    width: 100%;
+}
+table th
+{
+    color: red;
+}
+table td
+{
+    padding-left: 20px;
+}
+.subscribe
+{
+    background-color: white;
+    margin: 15px 50px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.subscribe i
+{
+    font-size: 30px;
+    color: orange;
+    padding-left: 20px;
+}
+.subscribe span
+{
+    color: red;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.add
+{
+    display: flex;
+    margin: 0 50px;
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+
+}
+.mobile img
+{
+    height: 120px;
+    width: 70px;
+    position: relative;
+    margin-right: 10px;
+    border: 1px solid orange;
+}
+.google img
+{
+    height: 45px;
+    width: 170px;
+    border: 1px solid;
+}
+.google
+{
+    padding-left: 20px;
+}
+.google p
+{
+    margin: 0px;
+}
+.google .p1
+{
+    font-weight: bold;
+}
+.google .p2
+{
+    color: gray;
+    font-size: 12px;
+    position: relative;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.building
+{
+    margin: 0 50px;
+    margin-top: 15px;
+}
+.building img
+{
+    height: 120px;
+    width: 100%;
+}
+.building p
+{
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    background: rgb(184, 121, 5);
+    color: white;
+    border: none;
+    margin-left: 70%;
+    position: relative;
+    margin-top: -100px;
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+}
